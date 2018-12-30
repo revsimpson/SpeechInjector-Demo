@@ -1,0 +1,48 @@
+PODS:
+  - MaterialComponents/Buttons (73.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (73.0.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (73.0.0)
+  - MaterialComponents/private/Math (73.0.0)
+  - MaterialComponents/private/Shapes (73.0.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/ShadowElevations (73.0.0)
+  - MaterialComponents/ShadowLayer (73.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Typography (73.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - SpeechInjector (1.0.14):
+    - MaterialComponents/Buttons
+
+DEPENDENCIES:
+  - SpeechInjector
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+  https://github.com/revsimpson/SpeechInjectorPodSpecs.git:
+    - SpeechInjector
+
+SPEC CHECKSUMS:
+  MaterialComponents: 5ee94fadd206902ffa318ba5adfd3c9c8c799000
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  SpeechInjector: 5cf08df5ad25f9be479dce3792c04710a0e1ef4d
+
+PODFILE CHECKSUM: ab1d127ea3ee623910d4f99ae9c0bcd474d3313b
+
+COCOAPODS: 1.6.0.beta.2
