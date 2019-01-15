@@ -21,15 +21,15 @@ class ViewController: UIViewController {
             print("gelukt")
         }
         
-        let connector2 = SpeechConnector(words: "red color","wrecked","read") {
+        let connector2 = SpeechConnector(words: "red color","wrecked","read") {  [weak self] in
             self.view.backgroundColor = UIColor.red
         }
         
-        let connector3 = SpeechConnector(words: "normal","white","blank") {
+        let connector3 = SpeechConnector(words: "normal","white","blank") { [weak self] in
              self.view.backgroundColor = UIColor.white
         }
         
-        let connector4 = SpeechConnector(words: "go","goto", "go to") {
+        let connector4 = SpeechConnector(words: "go","goto", "go to") { [weak self] in
             self.performSegue(withIdentifier: "GoToSecondScreen", sender: nil)
         }
         injector = SpeechInjector(connectors: [connector,connector2,connector3,connector4], vc: self, language: "en-US")
