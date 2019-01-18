@@ -65,6 +65,10 @@ class ViewController: UIViewController {
     }
 }
 
+
+If the button is not located correctly put it in viewDidAppear
+
+
 # Plist
 
 Add the following privacy settings to your plist and tell the user why you need to use their microphone and speech recognition.
